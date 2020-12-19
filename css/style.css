@@ -1,0 +1,199 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+}
+a{
+  text-decoration: none;
+}
+p{
+  margin: 0.75rem 0;
+
+}
+/* Utility Classes */
+.container{
+  margin: auto;
+  max-width: 1100px;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.text-primary{
+  color: #93cb52;
+}
+.text-center{
+  text-align: center;
+}
+.bg-light{
+  background:white;
+  color: #333;
+}
+.bg-dark{
+  background:#333;
+  color: white;
+}
+.l-heading{
+  font-size: 4rem;
+  margin-bottom: 1.8rem;
+}
+.m-heading{
+  font-size: 2rem;
+  margin-bottom: 1.8rem;
+}
+
+.lead{
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+.py-1{
+padding: 1.5rem 0;
+}
+.py-2{
+  padding: 2rem 0;
+}
+.py-3{
+  padding: 3rem 0;
+}
+
+.p-1{
+  padding: 1.5rem ;
+  }
+  .p-2{
+    padding: 2rem ;
+  }
+  .p-3{
+    padding: 3rem ;
+  }
+.btn{
+  display: inline-block;
+  background: #93cb52;
+  padding: .8rem 1.2rem;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  margin-top: 2rem;
+}
+.btn:hover{
+  background: #7ab436;
+}
+.btn-dark{
+  background: #333;
+  color: white;
+}
+
+.list{
+  margin: .5rem 0;
+  list-style: none;
+}
+.list li{
+  padding: .5rem 0;
+  border-bottom: 1px dotted grey ;
+}
+/* Navbar */
+#navbar{
+  background: #333;
+  color: white;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  padding: 1rem;
+}
+
+#navbar ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#navbar li a{
+  color: white;
+  padding: 0.75rem;
+  margin: .25rem;
+}
+#navbar li a:hover{
+  background: #93cb52;
+  border-radius: 5px;
+}
+
+/* ShowCase */
+#showcase{
+  /* This is used to cover the background with whole image */
+  background: #333 url('../img/showcase.jpg') no-repeat center center/cover;
+  height: 100vh;
+  color: white;
+}
+
+#showcase .showcase-content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding:0 2rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 60;
+}
+#what .container .m-heading{
+  padding-top: 1.4rem;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+.items{
+  display: flex;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.fa{
+  background:#93cb52 ;
+  padding: 1rem;
+  border-radius: 2rem;
+} 
+
+/* Who we Are */
+#who{
+  display: flex;
+}
+#who div{
+  flex: 1;
+}
+.who-img{
+  background-image: url('../img/people.jpg');
+  height: 700px;
+}
+.item i{
+  margin-bottom: 20px;
+}
+
+.logo{
+  width: 150px;
+  height: 150px;
+  margin: 20px auto;
+  display: flex;
+}
+.logo img{
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+.logo:hover{ 
+  background-color: #93cb52;
+  border-radius: 50%;
+  border: 2px solid grey;
+}
+
+.showcase-content h2{
+  opacity: 0.8;
+}
+
