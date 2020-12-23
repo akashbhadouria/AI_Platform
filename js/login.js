@@ -1,8 +1,8 @@
 const signUpButton = document.getElementById('signUp');
 const signInButton = document.getElementById('signIn');
 const container = document.getElementById('container');
-const form = document.getElementById('reg-form');
 
+const form = document.getElementById('reg-form');
 // new
 form.addEventListener('submit',registerUser);
 
